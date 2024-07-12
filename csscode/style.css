@@ -1,0 +1,50 @@
+#container{
+margin: 0;
+padding: 0;
+width: 100%;
+border: 1px solid black  ;
+}
+#top-header{
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    height: 50px;
+
+
+
+}
+#logo{
+    border: 1px solid black;
+height: 50px;
+width: 200px;
+}
+#banner{
+    border: 1px solid black;
+height: 50px;
+width:100%;
+
+}
+#main-content{
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#row1{
+    display: flex;
+}
+
+
+.thumb{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+}
+ 
